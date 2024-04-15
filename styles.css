@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .cta {
+    background-color: #e03a3e;
+    color: white;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .cta h1 {
+    margin-bottom: 0.5em;
+  }
+  
+  .cta-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .team, .news {
+    padding: 1em;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+  }
+  
+  .team-member img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-member h3, .team-member p {
+    text-align: center;
+  }
+  
+  .stats-link {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .news-item {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  
+  .news-item img {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .news-content {
+    padding-left: 1em;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .team-members {
+      flex-direction: column;
+    }
+  
+    .news-item {
+      flex-direction: column;
+    }
+  }
+  
+  /* Additional responsive styling as needed */
+  
