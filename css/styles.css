@@ -2,92 +2,122 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
   }
   
-  body {
+#burger {
+  color: #e03a3e;
+  font-size: 200%;
+  background-color: transparent;
+  border:none;
+}
+
+#profil {
+  background-color: transparent;
+  font-size: 200%;
+  border: none;
+}
+
+body {
     font-family: 'Arial', sans-serif;
+    background-color: #031625;
+    color: white;
   }
   
   nav {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
-    background-color: #000;
-    color: #fff;
-  }
-  
-  .cta {
-    background-color: #e03a3e;
-    color: white;
-    text-align: center;
     padding: 2em;
   }
   
-  .cta h1 {
+  .overskrift {
+    background-color: #e03a3e;
+    color: white;
+    text-align: left;
+    padding: 3em;
+    border-radius: 20px;
+    background: linear-gradient(to right, #e03a3e, #e03a3e 50%, transparent 100%);
+}
+  
+  .overskrift h1 {
     margin-bottom: 0.5em;
   }
   
-  .cta-button {
-    color: white;
+  #tilmelding {
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
+    background:linear-gradient(114.63deg, #fff, #931cf0) ;
+
   }
   
   .team, .news {
     padding: 1em;
   }
   
-  .team-members {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1em;
-  }
-  
-  .team-member img {
+  .team-member {
+    text-align: center; /* Center align the content */
+}
+
+.team-member img {
     width: 100px; /* Adjust as needed */
     height: auto;
     border-radius: 50%;
-  }
+    background-color:#2a3351;
+    
+}
+.small {
+font-size: 12px;
+}
+.team-member h3 {
+    margin-top: 0.5em; /* Add margin between the image and the team name */
+}
   
-  .team-member h3, .team-member p {
-    text-align: center;
-  }
-  
-  .stats-link {
+  #stats {
     display: block;
     text-align: right;
     text-decoration: none;
-    color: #000;
+    color: white;
   }
-  
-  .news-item {
-    display: flex;
-    margin-bottom: 1em;
-  }
-  
-  .news-item img {
-    width: 100px; /* Adjust as needed */
+
+.news {
+    position: relative; 
+}
+
+#træner {
+    width: 100%; 
     height: auto;
-  }
-  
-  .news-content {
-    padding-left: 1em;
-  }
-  
-  .read-more {
-    text-decoration: none;
-    color: #000;
-  }
+    border-radius: 30px;
+    
+}
+
+.indhold {
+  position: absolute; 
+  bottom: 2em; /* Align at the bottom */
+  left: 50%; 
+  transform: translateX(-50%);
+  max-width: 80%; 
+  color: white; 
+  text-align: center; 
+}
   
   @media (max-width: 768px) {
+
+   
     .team-members {
-      flex-direction: column;
+      display: flex;
+      flex-wrap: row;
+      justify-content: center; /* Center align the items */
+      
     }
   
-    .news-item {
-      flex-direction: column;
+    .team-member {
+      width: 45%; /* Adjust width as needed */
+      margin: 0.5em; /* Add some margin between the items */
+      background: #222939;
+      box-sizing: border-box;
+      padding: 1em;
+      border-radius: 20px;
+      background: linear-gradient(to bottom, #222939, #222939 50%, transparent 100%);
     }
   }
-  
-  /* Additional responsive styling as needed */
-  

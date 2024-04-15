@@ -14,43 +14,58 @@
 
 <header>
      <nav>
-    <button id="menu-toggle">☰</button>
-    <input type="search" placeholder="Search...">
-    <button id="user-profile">👤</button>
-  </nav>
-  <div class="cta">
+        <button id="burger">☰</button>
+        <input type="search" placeholder="Search...">
+        <button id="profil">👤</button>
+    </nav>
+  <div class="overskrift">
     <h1>Tilmeldingen for 2025 er nu åben!</h1>
-    <p>AIM ACADEMY</p>
-    <a href="#" class="cta-button">Tilmeld dig her ></a>
+    <h2>AIM ACADEMY</h2>
+    <a href="#"id="tilmelding">Tilmeld dig her ></a>
   </div>
 </header>
 
 <main>
   <section class="team">
     <h2>Current Team</h2>
+    <a href="#" id="stats">Se stats</a>
     <container class="team-members">
       <article class="team-member">
-        <img src="path-to-dev1ce-image.jpg" alt="dev1ce">
+        <img src="img/Device.webp" alt="dev1ce">
         <h3>dev1ce</h3>
-        <p>Nicolai Reedtz</p>
+        <p class="small">Nicolai Reedtz</p>
       </article>
       <article class="team-member">
-        <img src="path-to-stavn-image.jpg" alt="stavn">
+        <img src="img/Stavn.webp" alt="stavn">
         <h3>stavn</h3>
-        <p>Martin Lund</p>
+        <p class="small">Martin Lund</p>
+      </article>
+      <article class="team-member">
+        <img src="img/Jabbi.webp" alt="Jabbi">
+        <h3>Jabbi</h3>
+        <p class="small">Jakob Nygaard</p>
+      </article>
+      <article class="team-member">
+        <img src="img/Bro.webp" alt="Br0">
+        <h3>Br0</h3>
+        <p class="small">Alexander bro</p>
+      </article>
+      <article class="team-member">
+        <img src="img/Staehr.webp" alt="Staehr">
+        <h3>Staehr</h3>
+        <p class="small">Victor Staehr</p>
       </article>
     </container>
-    <a href="#" class="stats-link">Se stats</a>
   </section>
 
   <section class="news">
     <h2>Seneste Nyheder</h2>
-    <article class="news-item">
-      <img src="path-to-news-image.jpg" alt="Astralis henter dansk trænerprofil">
-      <container class="news-content">
-        <h3>Astralis henter dansk trænerprofil</h3>
-        <p>Casper 'ruggah' Due bliver ny træner for Astralis' Main hold...</p>
-        <a href="#" class="read-more">Læs mere</a>
+    <article>
+      <a href="#" class="read-more">Læs mere</a>
+      <img id="træner" src="img/Træner done.webp" alt="Astralis henter dansk trænerprofil" >
+      <container class="indhold">
+        <h2 id="ruggah">Astralis henter dansk trænerprofil</h2>
+        <p>Casper 'ruggah' Due bliver ny træner for Astralis' Main hold. Han kommer med stor erfaring både som spiller og træner, hvor han de seneste 7 år har fungeret på topplan hos organistation som OG, Optic Gaming og danske North</p>
       </container>
     </article>
   </section>
