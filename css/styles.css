@@ -42,15 +42,15 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #031625;
     color: white;
-  }
+}
   
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 2em;
-  }
+}
   
-  .overskrift {
+.overskrift {
     background-color: #e03a3e;
     color: white;
     text-align: left;
@@ -59,11 +59,11 @@ body {
     background: linear-gradient(to right, #e03a3e, #e03a3e 50%, transparent 100%);
 }
   
-  .overskrift h1 {
+.overskrift h1 {
     margin-bottom: 0.5em;
-  }
+}
   
-  #tilmelding {
+#tilmelding {
     color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
@@ -71,13 +71,13 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 
-  }
+}
   
-  .team, .news {
+.team, .news {
     padding: 1em;
-  }
+}
   
-  .team-member {
+.team-member {
     text-align: center; 
 }
 
@@ -95,7 +95,7 @@ font-size: 12px;
     margin-top: 0.5em;
 }
   
-  #stats {
+#stats {
     display: block;
     text-align: right;
     text-decoration: none;
@@ -115,6 +115,7 @@ font-size: 12px;
     border-radius: 30px;
     
 }
+
 #Læs {
   display: block;
   text-align: right;
@@ -123,7 +124,6 @@ font-size: 12px;
   background:linear-gradient(0.5deg, #fff, #931cf0) ;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 .indhold {
