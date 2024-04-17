@@ -1,6 +1,4 @@
 
-
-
   * {
     box-sizing: border-box;
     margin: 0;
@@ -100,7 +98,7 @@ nav {
     border-radius: 50%;
     background-color:#2a3351;
     align-self: stretch;
-    
+
 }
 .small {
 font-size: 12px;
